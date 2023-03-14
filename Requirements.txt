@@ -1,0 +1,90 @@
+Entry details
+-----------------
+name
+registration number
+room number
+branch
+destination
+time-in
+time-out
+
+
+sign-up / registration
+-------------
+registration number
+name
+branch
+room number
+set password
+email-id
+
+
+Login
+-------
+registration number
+password
+
+
+Dashboard
+-----------
+Profile
+    - update Profile
+    - student pic
+    - Logout
+
+QR Code
+    - System will generate automatically
+
+Entry Out
+    - registration number (read-only)
+    - destination (drop down selection)
+    - Click on Generate QR Code button
+        - QR Code is generated (with registration number, destination, time-out details)
+    - Scan QR code on QR code reader
+    (This will create new entry in website which user can again click and set entry in)
+
+Entry In
+    - Click on entry (which was created when user did entry out)
+    - Click on Generate QR Code button
+        - QR Code is generated (with registration number, time-in details)
+    - Scan QR code on QR code reader
+
+Backend Development
+----------------
+1. registration
+    * Validate user data
+    * Add user details in database
+    * generate QR Code
+    * send QR code to client
+    * Registration successful
+
+2. Login
+    * Check if user exists else send error -> "User is not registered"
+    * Check if password is correct else send error -> "Invalid passowrd"
+    * Login successfull
+
+3. Entry-out
+    * input -> QR code (registration number, destination, time-out)
+    * Get registration number, destination, time-out from QR code
+    * Store in entry table
+
+4. Entry-in
+    * input -> QR code (registration number, time-in, entry id)
+    * Get entry record with entry id
+    * 
+
+database
+------------
+Table
+1. User
+    registration number (primary key)
+    name
+    branch
+    room number
+
+2. Entry
+    registration number
+    destination
+    time-in
+    time-out
+
