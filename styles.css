@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  font-size: 20px;
+  background-image: url("/images/background.jpg");
+}
+
+header {
+  height: 80px;
+  background-color: #0e8388;
+  font-size: 30px;
+}
+
+h1 {
+  margin-top: 0;
+  text-align: center;
+  color: white;
+}
+
+.container {
+  padding-top: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: #cbe4de;
+}
+
+form {
+  width: 50%;
+  margin: 0 auto;
+  background-color: #ececec;
+  padding: 30px;
+  box-shadow: 0 0 10px 2px #ccc;
+  border-radius: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  color: #495057;
+  border: 1px solid #ced4da;
+}
+
+main {
+  padding: 20px;
+}
+
+.signup-footer {
+  text-align: center;
+  font-size: 20px;
+  color: white;
+}
+
+h2 {
+  text-align: center;
+  color: #cbe4de;
+  font-size: 30px;
+}
+
+.btn {
+  font-size: 20px;
+  width: 50%;
+  color: #fff;
+  background-color: cadetblue;
+  border: 0;
+  padding: 10px;
+}
+
+.btn-group {
+  text-align: center;
+}
+
+.tag {
+  color: white;
+  text-align: center;
+  font-style: italic;
+}
