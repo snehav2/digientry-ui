@@ -8,14 +8,7 @@
       <script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script>
       <meta name="viewport" content="width=s, initial-scale=1.0" />
       <link rel="stylesheet" href="css/style.css" />
-      <style>
-        body {
-    margin: 0;
-    font-size: 20px;
-    background-image: url("background.jpg");
-  }
-  
-      </style>
+
       
       
     </head>
