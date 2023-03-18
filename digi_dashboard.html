@@ -2,9 +2,10 @@
 <html lang="en">
 
     <head>
-      <title>WELCOME TO DIGIENTRY</title>
-      <title>DIGIENTRY </title>
-      
+      <title>dashboard.html</title>
+      <meta name="viewport" content="width=s, initial-scale=1.0" />
+      <link rel="stylesheet" href="css/styles.css" />
+    
       <script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script>
       <meta name="viewport" content="width=s, initial-scale=1.0" />
       <link rel="stylesheet" href="css/style.css" />
@@ -16,24 +17,40 @@
   }
   
       </style>
-      
-
-      
-      
     </head>
     <body>
-      <h1>Select Destination and Generate QR Code</h1>
+      <header>
+        <h1>DigiEntry</h1>
+
+        
+      </header>
+      <br>
+      <br>
+      <br>
+      <h2>ENTRY</h2>
+      
+      <br>
+      <br>
+      <br>
       <form>
-        <label for="destination">Select a Destination:</label>
+
+        <label for="destination">Destination:</label>
         <select id="destination" name="destination">
+          <option value="Select Destination">Select Destination</option>
           <option value="Class">Class</option>
           <option value="MP Hall">MP Hall</option>
           <option value="Canteen">Canteen</option>
           <option value="Cafe">Cafe</option>
+          <option value="Admin Building">Admin Building</option>
           <option value="Others">Others</option>
         </select>
         <br><br>
-        <input type="button" value="Generate QR Code" onclick="generateQRCode()">
+        
+        <div class="btn-group">
+          <button class="btn" type="submit">Generate QRCODE</button>
+          </div>
+        
+       
       </form>
       <br>
       <div id="qr-code"></div>
@@ -51,6 +68,7 @@
             colorLight : "#ffffff",
             correctLevel : QRCode.CorrectLevel.H
           });
+      
         }
       </script>
     </body>
