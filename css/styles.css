@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  font-size: 20px;
+  background-image: url("./../images/background.jpg");
+}
+
+header {
+  height: 80px;
+  background-color: #0e8388;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+lord-icon {
+  width: 150px;
+  height: 90px;
+}
+
+h1 {
+  margin-top: 30px;
+  text-align: center;
+  color: white;
+}
+
+.container {
+  padding-top: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: #cbe4de;
+}
+
+form {
+  width: 50%;
+  margin: 0 auto;
+  background-color: #ececec;
+  padding: 30px;
+  box-shadow: 0 0 10px 2px #ccc;
+  border-radius: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  color: #495057;
+  border: 1px solid #ced4da;
+}
+
+.qr-code-container {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 10px;
+  background-color: #ececec;
+  padding: 30px;
+  box-shadow: 0 0 10px 2px #ccc;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup-footer {
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  margin: 30px;
+}
+
+h2 {
+  text-align: center;
+  color: #cbe4de;
+  font-size: 30px;
+}
+
+.btn {
+  font-size: 20px;
+  width: 50%;
+  color: #fff;
+  background-color: cadetblue;
+  border: 0;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.btn-group {
+  text-align: center;
+}
+
+.tag {
+  color: white;
+  text-align: center;
+  font-style: italic;
+  margin-top: 0;
+}
+
+#other_destination {
+  display: none;
+}
+
+.check-account {
+  background-color: cadetblue;
+  font-size: 30px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.check-account a {
+  color: #062324;
+}
