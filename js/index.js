@@ -5,7 +5,7 @@ function checkOtherDestination(selectObject) {
       qrContentInput = document.getElementById("other_destination");
       qrContentInput.style.display = "block";
     }
-  }
+}
   
   // Generate QR Code
   let qrContentInput = document.getElementById("destination");
