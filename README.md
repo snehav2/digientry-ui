@@ -1,4 +1,5 @@
-# digientry
+# Digientry
+
 DigiEntry” describes a web application designed
 for managing daily gate entry using QR codes.
 ● The application enables users to create unique QR codes that can be
@@ -14,3 +15,11 @@ efficient tracking of gate entry.
 powerful tool for improving access control and security. It has the
 potential to be used in a wide range of settings and is an effective solution
 for managing busy gate entry
+
+*************************TECK STACK*******************************
+Frontend-> HTML,CSS,Javascript
+Backend-> Python
+Database-> MySQL
+******************************************************************
+
+
