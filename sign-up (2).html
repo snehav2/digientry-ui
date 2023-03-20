@@ -1,0 +1,111 @@
+<html>
+  <head>
+    <title>DigiEntry-Signup</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=s, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
+  </head>
+  <body>
+    <header>
+      <lord-icon src="https://cdn.lordicon.com/wxnxiano.json" trigger="morph">
+      </lord-icon>
+      <h1>DigiEntry</h1>
+    </header>
+    <main>
+      <h2>Sign Up</h2>
+      <p class="tag">Please create account if you are not registered</p>
+
+      <form>
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input
+            class="form-control"
+            type="text"
+            id="name"
+            name="name"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="registration_number">Registration No.</label>
+          <input
+            class="form-control"
+            type="number"
+            id="registration_number"
+            name="registration_number"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="branch">Branch</label>
+          <select class="form-control" name="branch" id="branch" required>
+            <option value="">Select Branch</option>
+            <option value="cse">Computer Science & Engineering</option>
+            <option value="ece">Electronics & Communication Engineering</option>
+            <option value="me">Mechanical Engineering</option>
+            <option value="ce">Civil Engineering</option>
+            <option value="ee">Electrical Engineering</option>
+            <option value="ceg">Chemical Engineering</option>
+            <option value="pe">Production Engineering</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="year">Year</label>
+          <select class="form-control" name="year" id="year" required>
+            <option value="">Select Year</option>
+            <option value="first">First</option>
+            <option value="second">Second</option>
+            <option value="third">Third</option>
+            <option value="fourth">Fourth</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="room_number">Room No.</label>
+          <input
+            class="form-control"
+            type="number"
+            id="room_number"
+            name="room_number"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input
+            class="form-control"
+            type="password"
+            id="password"
+            name="password"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="confirm_password">Confirm Password</label>
+          <input
+            class="form-control"
+            type="text"
+            id="confirm_password"
+            name="confirm_password"
+            required
+          />
+        </div>
+
+        <div class="btn-group">
+          <button class="btn" type="submit">Register</button>
+        </div>
+      </form>
+    </main>
+    <footer class="signup-footer">
+      <p class="check-account">
+        Already have an Account?<a href="login.html"> Login</a>
+      </p>
+    </footer>
+  </body>
+</html>
